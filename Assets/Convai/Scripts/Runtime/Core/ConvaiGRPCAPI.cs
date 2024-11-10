@@ -210,6 +210,7 @@ namespace Convai.Scripts.Runtime.Core
                 faceModel,
                 speakerId);
 
+            Debug.Log("TEXT: " + userText);
             try
             {
                 await call.RequestStream.WriteAsync(getResponseConfigRequest);

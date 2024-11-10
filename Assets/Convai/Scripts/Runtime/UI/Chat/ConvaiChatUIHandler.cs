@@ -221,6 +221,7 @@ namespace Convai.Scripts.Runtime.UI
         public void SendPlayerText(string text)
         {
             _currentUIImplementation?.SendPlayerText(_hasPlayerData ? _convaiPlayerData.PlayerName : _convaiPlayerData.DefaultPlayerName, text, playerTextColor);
+            //Debug.Log("PLAYER: " + text);
         }
 
         /// <summary>

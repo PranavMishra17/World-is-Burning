@@ -322,10 +322,12 @@ namespace Convai.Scripts.Runtime.Core
         /// <param name="text">The message to send.</param>
         public async void SendTextDataAsync(string text)
         {
+            
             try
             {
                 await ConvaiGRPCAPI.Instance.SendTextData(_client, text, characterID,
                     _isActionActive, _isLipSyncActive, ActionConfig, FaceModel, SpeakerID);
+                Debug.Log(text);
             }
             catch (Exception ex)
             {

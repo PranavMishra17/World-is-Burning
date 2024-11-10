@@ -17,6 +17,7 @@ namespace Convai.Scripts.Runtime.Core
         [HideInInspector] public Vector2 moveVector;
         [HideInInspector] public Vector2 lookVector;
         public bool isRunning { get; private set; }
+        public string playerInputText;
 
         public Action jumping;
         public Action sendText;
