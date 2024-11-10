@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.huggingface.api": "https://github.com/huggingface/unity-api.git",
     "com.readyplayerme.core": "https://github.com/readyplayerme/rpm-unity-sdk-core.git",
     "com.soupday.cc3_unity_tools": "https://github.com/soupday/cc_unity_tools_URP.git",
     "com.unity.2d.sprite": "1.0.0",

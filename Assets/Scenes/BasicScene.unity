@@ -365,7 +365,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ResetTransform: {fileID: 1519829579}
-  m_ResetTime: 0.25
 --- !u!1 &297582240
 GameObject:
   m_ObjectHideFlags: 0
@@ -461,7 +460,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ResetTransform: {fileID: 1519829579}
-  m_ResetTime: 0.25
 --- !u!1001 &333690195
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -922,7 +920,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ResetTransform: {fileID: 1519829579}
-  m_ResetTime: 0.25
 --- !u!1001 &367510380
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3328,6 +3325,51 @@ Transform:
   - {fileID: 1519829579}
   m_Father: {fileID: 1132672566}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1465472074
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1465472075}
+  - component: {fileID: 1465472076}
+  m_Layer: 0
+  m_Name: RecordAudio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1465472075
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1465472074}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.13818116, y: 2.6105292, z: -7.604775}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1465472076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1465472074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fde63da5307ea1469869f91fac62499, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  apiKey: 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
 --- !u!1001 &1489423090
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3886,7 +3928,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ResetTransform: {fileID: 1519829579}
-  m_ResetTime: 0.25
 --- !u!1 &2008523592 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5087823492143518475, guid: 3967f87296c892e40b57e37bc8601550,
@@ -4002,7 +4043,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ResetTransform: {fileID: 1519829579}
-  m_ResetTime: 0.25
 --- !u!1 &2035227294
 GameObject:
   m_ObjectHideFlags: 0
@@ -4098,7 +4138,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ResetTransform: {fileID: 1519829579}
-  m_ResetTime: 0.25
 --- !u!1001 &2053311401
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4286,3 +4325,4 @@ SceneRoots:
   - {fileID: 1132672566}
   - {fileID: 514425947}
   - {fileID: 192015817}
+  - {fileID: 1465472075}
